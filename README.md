@@ -16,14 +16,18 @@ Pendekatan yang digunakan tidak hanya berfokus pada teori, tetapi juga pada **fe
 
 Tujuan dari eksperimen ini adalah:
 1. Menganalisis perbedaan penggunaan **memori fisik (RAM)** dan **memori virtual** pada sistem operasi.
-2. Mengamati terjadinya **page fault** dan perilaku **swap usage** saat sistem berada pada kondisi beban tinggi.
-3. Membandingkan performa **media penyimpanan SSD dan HDD** berdasarkan hasil uji baca/tulis.
-4. Mengaitkan hasil eksperimen dengan konsep:
+2. Mengamati **kapan dan dalam kondisi apa Page Fault terjadi** saat sistem menjalankan beban kerja berat.
+3. Menganalisis **perilaku Swap Usage**, termasuk:
+   - Kapan swap mulai digunakan
+   - Hubungannya dengan keterbatasan memori fisik
+   - Dampaknya terhadap performa sistem
+4. Membandingkan performa **media penyimpanan SSD dan HDD** berdasarkan hasil uji baca/tulis.
+5. Mengaitkan hasil eksperimen dengan konsep:
    - Demand Paging  
    - Page Fault  
    - Virtual Memory  
    - Disk Scheduling Algorithms (FCFS, SSTF, SCAN, C-SCAN)
-5. Menyajikan hasil analisis dalam bentuk laporan dan presentasi berbasis **investigasi nyata**, bukan hanya teori.
+6. Menyajikan hasil analisis dalam bentuk laporan dan presentasi berbasis **investigasi nyata (storytelling teknis)**.
 
 ---
 
