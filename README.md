@@ -81,6 +81,11 @@ Eksperimen Mass Storage dilakukan dengan:
 Video presentasi ini menjelaskan proses investigasi, hasil eksperimen, serta analisis fenomena yang diamati selama eksperimen **Virtual Memory** dan **Mass Storage**. Fokus presentasi tidak hanya pada hasil akhir, tetapi juga pada **alur berpikir dan keterkaitan antara teori sistem operasi dan praktik nyata di sistem**.
 
 Isi utama video presentasi:
+- Latar belakang dan tujuan eksperimen
+- Demonstrasi monitoring Virtual Memory (page fault & swap usage)
+- Perbandingan performa SSD dan HDD
+- Analisis disk scheduling algorithms
+- Kesimpulan dan insight eksperimen
 
-
+File video dan slide presentasi dapat diakses pada folder:
 
