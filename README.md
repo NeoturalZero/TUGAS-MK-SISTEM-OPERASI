@@ -57,17 +57,20 @@ Tujuan dari eksperimen ini adalah:
 
 ### A. Virtual Memory
 Eksperimen Virtual Memory dilakukan dengan cara:
-1. Memantau penggunaan memori fisik dan virtual menggunakan Task Manager dan Resource Monitor.
-2. Menjalankan beban kerja berat, seperti:
+1. Memantau penggunaan memori fisik dan memori virtual menggunakan Task Manager dan Resource Monitor.
+2. Mengamati secara khusus:
+   - Page Fault (hard dan soft)
+   - Swap Usage (paging file / virtual memory)
+3. Menjalankan beban kerja berat, seperti:
    - Membuka 50+ tab browser
    - Menjalankan video streaming
    - Menjalankan aplikasi berat (IDE, emulator, atau VM)
-3. Mencatat perubahan:
+4. Mencatat perubahan:
    - Penggunaan RAM
-   - Page Fault
-   - Committed Memory
+   - Kenaikan Page Fault
+   - Aktivasi dan peningkatan Swap Usage
    - Respons sistem (lag, delay, atau penurunan performa)
-4. Menyimpan hasil monitoring berupa screenshot dan log PerfMon.
+5. Menyimpan hasil monitoring berupa screenshot dan log PerfMon.
 
 ### B. Mass Storage
 Eksperimen Mass Storage dilakukan dengan:
