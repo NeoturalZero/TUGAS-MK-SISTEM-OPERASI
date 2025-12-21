@@ -41,7 +41,7 @@ sns.set_style("whitegrid")
 date_fmt = mdates.DateFormatter('%H:%M:%S')
 
 # ========================================================
-# FIGURE 1: Page Faults vs Available RAM (DIPERBAIKI)
+# FIGURE 1: Page Faults vs Available RAM
 # ========================================================
 plt.figure(figsize=(12, 7))
 ax1 = plt.gca()
@@ -136,4 +136,5 @@ plt.grid(True, linestyle='--', alpha=0.5)
 # Simpan File 2
 plt.savefig('2_Analisis_Swap.png', dpi=300, bbox_inches='tight')
 print("Gambar 2 tersimpan: 2_Analisis_Swap.png")
+
 plt.close()
